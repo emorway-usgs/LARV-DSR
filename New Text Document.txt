@@ -1,0 +1,35 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+U:\>C:
+
+C:\>cd C:\ibra\test
+
+C:\ibra\test>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Module 11 Assignment.pdf
+
+
+C:\ibra\test>git add "Module 11 Assignment.pdf"
+
+C:\ibra\test>git commit -m "TESTT"
+[main be4eb42] TESTT
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Module 11 Assignment.pdf
+
+C:\ibra\test>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 165.92 KiB | 20.74 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/iaqurban/MODFLOW.git
+   da2411d..be4eb42  main -> main
+
+C:\ibra\test>
+
