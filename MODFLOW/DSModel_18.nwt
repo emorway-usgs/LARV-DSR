@@ -1,0 +1,15 @@
+#HEADTOL  FLUXTOL MAXITEROUT THICKFACT LINMETH IPRNWT IBOTAV    OPTIONS   DBDREDUCE DBDINCREASE DBDGAMMA MOMFACT BACKFLAG MAXBACKITER BACKTOL BACKREDUCE
+  1.0E-2    5.0e3       800     5.0e-6       1      1      1    SPECIFIED  CONTINUE 0.85      0.0001    0.000    0.10        1          50    1.2        0.7
+ 500 2  2  1.0e-9  20  4      
+               
+               
+               
+               
+               
+               
+               
+                 #LINMETH=1: MAXITINNER ILUMETHOD LEVFILL STOPTOL MSDR 
+#LINMETH=2: IACL          NORDER   LEVEL   NORTH IREDSYS RRCTOLS IDROPTOL ICOMB EPSRN ISTORXMD HCLOSEXMD
+       
+
+   2             0       1       2     0       0.0        1     1  1.0E-3 7 1.0e-4

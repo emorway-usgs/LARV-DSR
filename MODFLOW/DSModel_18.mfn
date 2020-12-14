@@ -1,0 +1,32 @@
+# MF2K NAME file
+#
+# Output Files
+#GLOBAL			1	DSModel_18.glo
+LIST			2	DSModel_18.out
+#DATA(BINARY)		30	DSModel_18.hed
+DATA			30	DSModel_18.hed
+DATA(BINARY)		40	DSModel_18.ccf  
+DATA(BINARY)		62	UZFtest.uzfot
+DATA			68	UnsatOutput.uzf1
+DATA			55	arklamco.txt
+DATA			56	biglamco.txt
+DATA			57	arkgrago.txt
+DATA			58	wildhoco.txt
+DATA			59	arkcooks.txt
+DATA			91	DSModel_18._wos
+#
+# Global Input Files
+DIS			19	DSModel_18.dis
+#
+# Flow Process Input Files
+BAS6			3	DSModel_18.ba6
+NWT			22	DSModel_18.nwt
+UPW			21	DSModel_18.upw
+UZF			20	DSModel_18.uzf
+OC			15	DSModel_18.oc
+RIV			8	DSModel_18.riv
+SFR			10	DSModel_18.sfr
+WEL			9	DSModel_18.wel
+LMT6			18	DSModel_18.lmt
+GAGE			54	DSModel_18.gage
+#HOB			16	DSModel_18_testing.hob#
